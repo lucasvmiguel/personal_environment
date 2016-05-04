@@ -34,3 +34,8 @@ sudo apt-get install vim -y
 
 #install docker
 wget -qO- https://get.docker.com/ | sh
+
+#install htop
+
+sudo apt-get install atom -y
+
