@@ -36,6 +36,7 @@ sudo apt-get install vim -y
 wget -qO- https://get.docker.com/ | sh
 
 #install htop
-
 sudo apt-get install atom -y
 
+#install client postgres
+sudo apt-get install postgresql postgresql-contrib -y
