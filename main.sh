@@ -13,10 +13,12 @@ sudo apt-get update
 sudo apt-get install esl-erlang -y
 sudo apt-get install elixir -y
 mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez -y
+sudo apt-get install build-essential -y
 
 #install nodejs
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
+npm install -g brunch
 
 #install vim
 sudo apt-get install vim -y
